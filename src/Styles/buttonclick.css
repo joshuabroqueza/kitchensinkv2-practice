@@ -1,0 +1,57 @@
+.buttonclick {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttonclick__left,
+.buttonclick__right {
+  height: 30px;
+  width: 200px;
+  border: 2px solid brown;
+  background-color: burlywood;
+  color: rgb(17, 13, 13);
+  font-weight: 700;
+}
+
+.btnReset {
+  height: 30px;
+  width: 60px;
+  border: 2px solid rgb(243, 73, 73);
+  background-color: rgb(255, 154, 147);
+  color: rgb(17, 13, 13);
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.value__container {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 10px;
+}
+
+.section__left {
+  margin-bottom: 10px;
+}
+
+.btn_container {
+  margin-top: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.add__container {
+  height: 30px;
+  /* width: 60px; */
+  border: 2px solid rgb(41, 90, 2);
+  background-color: rgba(119, 247, 68, 0.747);
+  color: rgb(17, 13, 13);
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.added__items {
+  font-style: italic;
+  font-weight: 200;
+}
